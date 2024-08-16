@@ -2509,6 +2509,48 @@ input[type='button'].btn--primary:focus {
   color: var(--color-btn-primary-hover-text);
 }
 
+.btn.btn--primary.btn--whats,
+button.btn--primary,
+input[type='submit'].btn--primary,
+input[type='reset'].btn--primary,
+input[type='button'].btn--primary {
+  background: #00a884;
+  border-color: #00a884;
+  color: var(--color-btn-primary-text);
+}
+/* button act
+ * ------------------------------------------------- */
+.btn--act {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  padding: 20px;
+  background: #01c097;
+  border-color: #01c097;
+  color: #fff;
+  border-radius: 80px;
+  flex-wrap: wrap;
+}
+
+.btn--act:hover,
+button.btn--act:hover,
+input[type='submit'].btn--act:hover,
+input[type='reset'].btn--act:hover,
+input[type='button'].btn--act:hover,
+.btn--act:focus,
+button.btn--act:focus,
+input[type='submit'].btn--act:focus,
+input[type='reset'].btn--act:focus,
+input[type='button'].btn--act:focus {
+  background: #029273;
+  border-color: #029273;
+}
+
+.min-whats-svg {
+  min-width: 40px;
+}
+
 /* button modifiers
  * ------------------------------------------------- */
 .btn.h-full-width,
@@ -4740,6 +4782,30 @@ html.no-csstransitions .s-hero__content {
 
 .s-contact__email a:hover,
 .s-contact__email a:focus {
+  border-bottom: 2px solid white;
+}
+
+/* ===================================================================
+ * # act
+ *
+ * ------------------------------------------------------------------- */
+
+.s-contact__act {
+  margin-top: var(--vspace-1_5);
+  font-family: var(--font-2);
+  font-size: calc(var(--text-size) * 3);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1;
+}
+
+.s-contact__act a {
+  color: white;
+  border-bottom: 2px solid transparent;
+}
+
+.s-contact__act a:hover,
+.s-contact__act a:focus {
   border-bottom: 2px solid white;
 }
 
