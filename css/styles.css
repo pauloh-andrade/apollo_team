@@ -4045,9 +4045,6 @@ html.no-csstransitions .s-hero__content {
   .s-hero__content h1 {
     font-size: 28vw;
   }
-  .s-hero__content-about {
-    padding-right: 15vw;
-  }
   .s-hero__content-about br {
     display: none;
   }
@@ -4066,8 +4063,6 @@ html.no-csstransitions .s-hero__content {
   }
   .s-hero__content-about {
     font-size: 2.6rem;
-    padding-right: 4rem;
-    padding-left: 0.5em;
   }
 }
 
