@@ -3358,18 +3358,21 @@ input::-moz-focus-inner {
 /* ------------------------------------------------------------------- 
  * ## header contact button
  * ------------------------------------------------------------------- */
+
+.s-hero__content-about .btn,
+button,
+input[type='submit'],
+input[type='reset'],
+input[type='button'] {
+  letter-spacing: 0;
+}
 .s-hero__content-about .btn {
-  display: -ms-flexbox;
-  display: -webkit-box;
   display: flex;
-  -ms-flex-align: center;
-  -webkit-box-align: center;
-  align-items: center;
-  -ms-flex-pack: center;
-  -webkit-box-pack: center;
   justify-content: center;
   gap: 2rem;
-  width: 35rem;
+  width: auto;
+  height: auto;
+  padding: 0;
 }
 .s-header__content .btn {
   --btn-height: calc(var(--vspace-btn) - 1.2rem);
