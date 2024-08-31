@@ -2055,7 +2055,6 @@ td:last-child {
  * ## spacing
  * ------------------------------------------------------------------- */
 img,
-p,
 pre,
 table,
 blockquote,
@@ -4806,9 +4805,8 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 
 .s-contact__act {
-  margin-top: var(--vspace-1_5);
   font-family: var(--font-2);
-  font-size: calc(var(--text-size) * 3);
+  font-size: calc(var(--text-size) * 2);
   font-weight: 500;
   letter-spacing: -0.01em;
   line-height: 1;
